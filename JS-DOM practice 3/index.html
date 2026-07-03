@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Assignment 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DOM Assignment 4</h1>
+        <p>Follow the instructions in <code>INSTRUCTIONS.md</code> to complete the tasks below.</p>
+    </header>
+
+
+    <main>
+        <!-- Task 3: Local Storage (Placed at top for greeting) -->
+        <section class="task-section">
+            <h2>Task 3: Local Storage</h2>
+            <p>Welcome back, <span id="greeting-name" class="highlight-text">Guest</span>!</p>
+            <input type="text" id="name-input" placeholder="Enter your name">
+            <button id="save-btn">Save Name</button>
+        </section>
+
+
+        <!-- Task 1: Keyboard Events -->
+        <section class="task-section">
+            <h2>Task 1: Keyboard Events</h2>
+            <ul id="chat-messages" class="box">
+                <!-- Messages will appear here -->
+            </ul>
+            <input type="text" id="chat-input" placeholder="Type a message and press Enter...">
+        </section>
+
+
+        <!-- Task 2: Timers -->
+        <section class="task-section">
+            <h2>Task 2: Timers</h2>
+           
+            <div class="timer-part">
+                <h3>setTimeout</h3>
+                <button id="alert-btn">Show Alert</button>
+                <div id="alert-msg" style="display: none;" class="alert-box">
+                    Action successful! This will disappear in 3 seconds.
+                </div>
+            </div>
+
+
+            <div class="timer-part">
+                <h3>setInterval</h3>
+                <p>Counter: <span id="counter-display">0</span></p>
+                <button id="start-btn" class="btn-green">Start</button>
+                <button id="stop-btn" class="btn-red">Stop</button>
+            </div>
+        </section>
+
+
+        <!-- Task 4: Event Delegation -->
+        <section class="task-section">
+            <h2>Task 4: Event Delegation</h2>
+            <p>Click on the items to toggle their status.</p>
+            <ul id="delegation-list">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+ 
